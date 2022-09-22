@@ -127,7 +127,7 @@ def hist_energy(N,repeat):
         result[i] = calc_energy(N,m,x,v)
     return result
 
-# Histogram of energies # it takes same minutes 
+# Histogram of energies # it takes some minutes 
 nbody = 5
 obs   = 1000000 
 result = hist_energy(nbody,obs) 
